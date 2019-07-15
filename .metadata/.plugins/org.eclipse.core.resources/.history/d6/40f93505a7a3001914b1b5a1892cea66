@@ -1,0 +1,16 @@
+package FacadDesign;
+
+import java.awt.Shape;
+
+public class ShapeMaker
+{
+	private Shape Circle; 
+	private Shape square; 
+	private Shape Rectangle; 
+}
+public void drowCircle() 
+	{
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package JDBC1;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+public class RegexDemo 
+{
+public static void main(String[] args)
+{
+	int Count=0;
+	Pattern P=Pattern.compile("ab");
+	Matcher m=P.matcher("ababaabbab");
+	while(m.find())
+	{
+		Count++;
+		System.out.println(m.start());
+	}
+	System.out.println("Total number of occurance"+Count);
+}
+}

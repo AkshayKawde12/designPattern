@@ -1,0 +1,9 @@
+package FactoryDesign;
+
+public class Android implements os {
+	public void spec()
+	{
+		System.out.println("Most powerfull Os");
+	}
+
+}

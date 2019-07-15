@@ -1,0 +1,14 @@
+
+public class EagerSinleton 
+{
+	private static final  EagerSinleton instance = new  EagerSinleton();
+	private  EagerSinleton()
+	{
+		
+	}
+		public static  EagerSinleton getInstance()
+		{
+			return instance;
+		}
+	
+}

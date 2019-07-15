@@ -1,0 +1,5 @@
+package VisitorDesign;
+
+public interface ComputerPart {
+
+}

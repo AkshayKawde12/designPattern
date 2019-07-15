@@ -1,0 +1,22 @@
+package Observer.java;
+
+public class Subscriber {	
+		static String name;
+//		private Channel1 Channel1=new Channel1();
+		
+		
+		public Subscriber(String name) 
+		{
+			super();
+			Subscriber.name = name;
+		}
+		public static void update()
+		{
+			System.out.println("hey "+name+" video uploded");
+		}
+//		public void SubscriberChannel1(Channel1 ch)
+//		{
+//			Channel1=ch;
+//		}
+
+}

@@ -1,0 +1,1295 @@
+!SESSION 2019-02-21 15:46:50.615 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-21 15:49:06.310
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-02-22 11:48:06.344 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-22 11:48:26.396
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-02-22 11:48:49.132 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-22 11:49:00.060
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-02-22 11:59:09.109 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-22 11:59:21.376
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.ui.ide 4 0 2019-02-22 12:00:11.777
+!MESSAGE Could not import project located at /home/admin1/eclipse-workspace/Demo/src/com/Javaprograms
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at /home/admin1/eclipse-workspace/Demo/src/com/Javaprograms
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:565)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:252)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:604)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:552)
+	... 2 more
+!SESSION 2019-02-25 11:20:58.796 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 11:21:19.068
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-25 12:10:46.992
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-02-25 19:30:35.192
+!MESSAGE An internal error occurred during: "org.eclipse.eclemma.internal.core.launching.AgentServer".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.eclemma.internal.ui.UIPreferences.getPreferenceStore(UIPreferences.java:114)
+	at org.eclipse.eclemma.internal.ui.UIPreferences.access$0(UIPreferences.java:113)
+	at org.eclipse.eclemma.internal.ui.UIPreferences$1.getActivateNewSessions(UIPreferences.java:56)
+	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:123)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-07-08 10:51:52.857 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-08 10:52:23.605
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-07-08 11:06:41.817 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-08 11:06:48.173
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-07-08 11:37:30.522 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:35.281
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/580/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:377)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:109)
+	at org.eclipse.osgi.container.ModuleDatabase.cleanupRemovalPending(ModuleDatabase.java:404)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:320)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:445)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:334)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:35.443
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/603/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:35.471
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/608/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.042
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/700/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.173
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/719/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.499
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/746/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.580
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/748/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:377)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:109)
+	at org.eclipse.osgi.container.ModuleDatabase.cleanupRemovalPending(ModuleDatabase.java:404)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:320)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:445)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:334)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.619
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/751/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.648
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/755/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.866
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/802/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.889
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/806/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:37.123
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/857/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2019-07-08 11:37:59.384
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start() of bundle org.eclipse.equinox.p2.reconciler.dropins.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:803)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1763)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+Caused by: java.lang.IllegalStateException: The profile is currently in use.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.lockProfile(SimpleProfileRegistry.java:867)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:72)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.setProperty(ProfileSynchronizer.java:781)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.synchronize(ProfileSynchronizer.java:121)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.synchronize(Activator.java:448)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:179)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	... 12 more
+Root exception:
+java.lang.IllegalStateException: The profile is currently in use.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.lockProfile(SimpleProfileRegistry.java:867)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:72)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.setProperty(ProfileSynchronizer.java:781)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.ProfileSynchronizer.synchronize(ProfileSynchronizer.java:121)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.synchronize(Activator.java:448)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:179)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1763)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-08 11:38:06.915
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.oomph.setup.core 2 0 2019-07-08 11:38:43.138
+!MESSAGE Profile _home_admin1_eclipse_jee-2018-12_eclipse is not current. Expected timestamp 0 but was 0.
+!STACK 0
+java.lang.IllegalStateException: Profile _home_admin1_eclipse_jee-2018-12_eclipse is not current. Expected timestamp 0 but was 0.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.lockProfile(SimpleProfileRegistry.java:879)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:72)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.internal.provisional.p2.director.PlanExecutionHelper.executePlan(PlanExecutionHelper.java:45)
+	at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:543)
+	at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:340)
+	at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:733)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3335)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.access$1(SetupTaskPerformer.java:3278)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$WorkspaceUtil$1.run(SetupTaskPerformer.java:4514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$WorkspaceUtil.performNeededSetupTasks(SetupTaskPerformer.java:4508)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer$WorkspaceUtil.access$0(SetupTaskPerformer.java:4506)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3269)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3244)
+	at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3144)
+	at org.eclipse.oomph.setup.ui.wizards.ProgressPage$9.run(ProgressPage.java:575)
+	at org.eclipse.oomph.setup.ui.wizards.ProgressPage$11$1.run(ProgressPage.java:701)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2019-07-08 11:38:43.138
+!MESSAGE Setup tasks were performed during startup. See '/home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
+!SESSION 2019-07-08 11:37:29.200 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:35.524
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/612/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:377)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:109)
+	at org.eclipse.osgi.container.ModuleDatabase.cleanupRemovalPending(ModuleDatabase.java:404)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:320)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:445)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:334)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:35.578
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/619/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:35.805
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/659/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:35.945
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/685/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:377)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:109)
+	at org.eclipse.osgi.container.ModuleDatabase.cleanupRemovalPending(ModuleDatabase.java:404)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:320)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:445)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:334)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.120
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/716/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:377)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:109)
+	at org.eclipse.osgi.container.ModuleDatabase.cleanupRemovalPending(ModuleDatabase.java:404)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:320)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:445)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:334)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.212
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/722/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.341
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/736/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.395
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/740/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.456
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/744/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.478
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/745/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:377)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:109)
+	at org.eclipse.osgi.container.ModuleDatabase.cleanupRemovalPending(ModuleDatabase.java:404)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:320)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:445)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:334)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.611
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/750/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.839
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/797/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:36.923
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/811/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:377)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:109)
+	at org.eclipse.osgi.container.ModuleDatabase.cleanupRemovalPending(ModuleDatabase.java:404)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:320)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:445)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:334)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:37.001
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/826/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:37.053
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/846/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:377)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:109)
+	at org.eclipse.osgi.container.ModuleDatabase.cleanupRemovalPending(ModuleDatabase.java:404)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:320)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:445)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:334)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:37.084
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/847/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:335)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:37.139
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/859/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:377)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:109)
+	at org.eclipse.osgi.container.ModuleDatabase.cleanupRemovalPending(ModuleDatabase.java:404)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:320)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:445)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:334)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:37.205
+!MESSAGE Error deleting bunlde info.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/369/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:503)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:380)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:109)
+	at org.eclipse.osgi.container.ModuleDatabase.cleanupRemovalPending(ModuleDatabase.java:404)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:320)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:445)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:334)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:37.281
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/903/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:377)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:109)
+	at org.eclipse.osgi.container.ModuleDatabase.cleanupRemovalPending(ModuleDatabase.java:404)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:320)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:445)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:334)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.osgi 2 0 2019-07-08 11:37:37.326
+!MESSAGE Error deleting generation.
+!STACK 0
+java.io.FileNotFoundException: /home/admin1/Desktop/eclipse/jee-2018-12/eclipse/configuration/org.eclipse.osgi/912/0/.delete (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+	at org.eclipse.osgi.storage.Storage.delete0(Storage.java:1176)
+	at org.eclipse.osgi.storage.Storage.delete(Storage.java:1156)
+	at org.eclipse.osgi.storage.BundleInfo.delete(BundleInfo.java:511)
+	at org.eclipse.osgi.storage.BundleInfo$Generation.delete(BundleInfo.java:392)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.cleanup(EquinoxBundle.java:377)
+	at org.eclipse.osgi.container.ModuleRevisions.removeRevision(ModuleRevisions.java:109)
+	at org.eclipse.osgi.container.ModuleDatabase.cleanupRemovalPending(ModuleDatabase.java:404)
+	at org.eclipse.osgi.container.ModuleDatabase.uninstall(ModuleDatabase.java:320)
+	at org.eclipse.osgi.container.ModuleContainer.uninstall(ModuleContainer.java:445)
+	at org.eclipse.osgi.storage.Storage.refreshStaleBundles(Storage.java:334)
+	at org.eclipse.osgi.storage.Storage.createStorage(Storage.java:178)
+	at org.eclipse.osgi.internal.framework.EquinoxContainer.<init>(EquinoxContainer.java:72)
+	at org.eclipse.osgi.launch.Equinox.<init>(Equinox.java:34)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:315)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-08 11:39:09.763
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-07-08 11:44:35.355 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-08 11:44:41.632
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-08 11:46:57.290
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-07-09 10:21:12.059 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-09 10:21:28.352
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-09 10:22:24.813
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-07-10 08:57:31.411 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-10 08:58:00.040
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-10 16:54:31.501
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-07-11 11:00:54.130 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-11 11:01:07.960
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-11 11:11:52.018
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-07-12 10:32:53.720 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-12 10:33:10.175
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-12 10:55:00.411
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.ui 4 0 2019-07-12 10:55:02.975
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.computeInformation(AdditionalInfoController.java:541)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1091)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.showInformation(AdditionalInfoController.java:530)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$1.showInformation(AdditionalInfoController.java:477)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer.lambda$1(AdditionalInfoController.java:362)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4906)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4475)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-07-12 11:18:00.846
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/oomph/drops/milestone/S20190531-082923-1.13.0-M4.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:398)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor79.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-07-12 11:18:00.847
+!MESSAGE No repository found at http://download.eclipse.org/oomph/drops/milestone/S20190531-082923-1.13.0-M4.
+!SESSION 2019-07-13 10:49:36.744 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-13 10:49:52.936
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-13 10:53:20.542
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-07-15 10:19:55.789 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-15 10:20:13.179
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-15 10:31:09.662
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-07-15 18:41:48.676 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-07-15 18:41:56.053
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

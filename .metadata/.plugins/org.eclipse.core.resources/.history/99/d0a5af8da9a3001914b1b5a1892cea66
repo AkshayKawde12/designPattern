@@ -1,0 +1,5 @@
+package ProxyDesign;
+
+public interface Image {
+
+}

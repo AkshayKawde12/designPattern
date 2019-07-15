@@ -1,0 +1,11 @@
+package JDBC1;
+import java.sql.*;
+public class Example 
+{	
+	public static void main(String[] args) throws ClassNotFoundException
+	{
+		Class.forName("com.mysql.jdbc.Driver");
+			Connection con=DriverManager.getConnection("","","");
+			Statement st=con.createStatement();
+	}
+}

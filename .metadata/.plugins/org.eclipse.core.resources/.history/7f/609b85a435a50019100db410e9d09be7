@@ -1,0 +1,9 @@
+package FactoryDesign;
+
+public class Android implements os {
+	@Override
+	public void spec() {
+		// TODO Auto-generated method stub
+		System.out.println("most powerfull os");
+	}
+}

@@ -1,0 +1,37 @@
+package Singleton;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class LazyInitilization 
+{
+	private static LazyInitilization instance;
+	private LazyInitilization()
+	{
+		System.out.println("Creating");
+	}
+	public static LazyInitilization getinstance()
+	{
+		if(instance==null)
+		{
+			instance=new LazyInitilization();
+		}
+		return instance;
+	}
+}
+class TestLazy
+{
+	static void useLazy() 
+	{
+		LazyInitilization Lazy1=LazyInitilization.getinstance();
+		System.out.println(Lazy1.hashCode());
+	}
+	public static void main(String[] args)
+	{
+		ExecutorService service=Executors.newFixedThreadPool(2);
+		service.submit(TestLazy::useLazy);
+		service.submit(TestLazy::useLazy);
+		service.shutdown();	
+	}
+}
+

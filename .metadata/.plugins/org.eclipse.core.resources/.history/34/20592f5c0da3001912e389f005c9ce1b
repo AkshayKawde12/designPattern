@@ -1,0 +1,10 @@
+package FactoryDesign;
+
+public class FactoryDesign 
+{
+public static void main(String[] args)
+{
+	os obj = new Ios();
+	obj.spec();
+}
+}

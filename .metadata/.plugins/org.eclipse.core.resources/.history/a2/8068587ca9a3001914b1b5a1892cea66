@@ -1,0 +1,6 @@
+package ProxyDesign;
+
+public class Image 
+{
+	void display();
+}

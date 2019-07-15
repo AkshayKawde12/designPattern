@@ -1,0 +1,20 @@
+package VisitorDesign;
+public class ComputerPartDisplayVisitor 
+{
+	public void visit(Computer computer)
+	{
+		System.out.println("Displaying Computer");
+	}
+	public void visit(Mouse mouse)
+	{
+		System.out.println("Displaying Mouse");
+	}
+	public void visit(keyboard Keyboard)
+	{
+		System.out.println("Displaying Keyboard");
+	}
+	 public void visit(Monitor monitor) 
+	 {
+	     System.out.println("Displaying Monitor.");
+   }
+}

@@ -1,0 +1,24 @@
+package FacadDesign;
+
+import java.awt.Shape;
+
+public class Fasad {
+	public class ShapeMaker
+	{
+		private FacadDesign.Circle Circle; 
+		private Square square; 
+		private Shape Rectangle; 
+		public ShapeMaker() 
+		{
+			Circle=new Circle();
+			square=new Square();
+			Rectangle=new FacadDesign.Rectangle();
+		}
+		public void drawCircle() 
+		{
+			Circle.darw();
+		}
+
+	}
+
+}

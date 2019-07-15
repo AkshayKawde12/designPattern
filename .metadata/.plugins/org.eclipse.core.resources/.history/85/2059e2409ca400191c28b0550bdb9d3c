@@ -1,0 +1,16 @@
+import java.sql.*;
+public class JdbcDemo
+{
+	public static void main(String[] args) throws Exception
+	{
+		String Url="jdbc:mysql://localhost:3306/Bridgelabz";
+		String UserName="root";
+		String pass="root";
+		String Query="select * form login";
+		Class.forName("com.mysql.jdbc.Driver");
+		Connection con = DriverManager.getConnection(Url,UserName,pass);
+		Statement statement=con.createStatement();
+		ResultSet resultSet=statement.executeQuery(Query);
+		System.out.println(resultSet.getString(1)); 
+	}
+}

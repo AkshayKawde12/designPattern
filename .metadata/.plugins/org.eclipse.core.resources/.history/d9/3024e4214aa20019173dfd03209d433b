@@ -1,0 +1,194 @@
+package oops.java;
+import java.util.*;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.*;
+
+import java.io.*;
+public class CliniqueManagement {
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) throws Exception
+	{
+		System.out.println("Enter your choice");
+		System.out.println("1:Doctor");
+		System.out.println("2.Patient");
+		int choice;
+		choice=sc.nextInt();
+		switch(choice)
+		{
+		case 1:doctorDetail();
+		break;
+		
+		case 2:patientDetail();
+		break;
+		}
+	}
+	
+	static void doctorDetail() throws Exception
+	{
+		System.out.println("Enter your choice");
+		System.out.println("1:Name");
+		System.out.println("2:Specialization");
+//		System.out.println("3:patient list");
+		int Choice;
+		Choice=sc.nextInt();
+		doctorList(Choice);
+	}
+	static void patientDetail() throws Exception
+	{
+		System.out.println("Enter your choice");
+		System.out.println("1:Name");
+		System.out.println("2:ID");
+		System.out.println("3:Contact Number");
+		System.out.println("4:Age");
+		int choice;
+		choice=sc.nextInt();
+		patientlist(choice);
+	}
+	
+	static void doctorList(int choice) throws Exception
+	{
+		switch(choice)
+		{
+		case 1:
+			System.out.println("Enter Doctor Name");
+			String Name=sc.nextLine();
+			readDoctorDetail(sc.nextLine());
+			break;
+			
+		case 2:
+			System.out.println("Enter Doctor Specialization");
+			String Specialization=sc.nextLine();
+			readDoctorDetail(sc.nextLine());
+			break;
+			
+//		case 3:
+//			System.out.println("Enter patient list");
+//			String list=sc.nextLine();
+//			readDoctorDetail(sc.nextLine());
+//			break;
+			
+//		case 4:
+//			System.out.println("Enter patient id");
+//			String Appotiment=sc.nextLine();
+//			readDoctorDetail(Appotiment);
+//			break;
+			
+		default:
+			System.out.println("Please enter valid detail");
+			break;
+		}	
+		   
+	}
+
+	static void readDoctorDetail(String key)
+	throws Exception
+	{
+		JSONParser Parser=new JSONParser();
+		JSONArray object=(JSONArray)Parser.parse(new FileReader("/home/admin1/eclipse-workspace/Demo/src/com/Javaprograms/oops.java/src/oops/java/Doctor.json"));
+		for(int j=0;j<object.size();j++) {
+			JSONObject Details=(JSONObject)object.get(j);
+			if(key.equals((String)Details.get("Name")) || key.equals((String)Details.get("Specialization")) ) 
+			{
+				System.out.println("Name :" + Details.get("Name"));
+				System.out.println("Specilization :" + Details.get("Specialization"));
+				JSONArray PatientList=(JSONArray)Details.get("patient list");
+				for(int i=0;i<PatientList.size();i++){
+					JSONObject list=(JSONObject)PatientList.get(i);
+					System.out.println("Patient ID :" +list.get("pid"));
+				}
+				System.out.println("1: make an Appoitment..?");
+				int choice=sc.nextInt();
+				switch (choice)
+				{
+				case 1:
+					System.out.println("Enter patint-ID");
+					String pid=sc.nextLine();
+					addPatientList(sc.nextLine(),object,PatientList);
+				break;	
+					default:
+						System.out.println("enter valid input");
+				
+				}
+			}				
+		}
+	}
+	@SuppressWarnings("unchecked")
+	static void addPatientList(String key, JSONArray object,JSONArray PatientList) throws IOException
+	{
+		boolean flag=false;
+		for(int k=0;k<object.size();k++)
+		{
+			if(PatientList.size()<=5)
+			{
+				flag=true;
+				JSONObject data=new JSONObject();
+				data.put("pid",key);
+				PatientList.add(data);
+				JSONObject pl=new JSONObject();
+				pl.put("patient list",PatientList);
+				object.add(pl);
+				
+				try (FileWriter file = new FileWriter("/home/admin1/eclipse-workspace/Demo/src/com/Javaprograms/oops.java/src/oops/java/Doctor.json")) 
+				{
+					file.write(object.toJSONString());
+					System.out.println("Successfully Copied JSON Object to File...");
+					break;
+				}
+			}
+		}
+		if(!flag) {
+			System.out.println("can not make an appoitment");
+		}
+	}
+		
+	static void patientlist(int choice) throws Exception
+	{
+		switch (choice)
+		{
+		case 1:
+		System.out.println("Enter Name");
+		String name=sc.nextLine();
+		readPatientDetail(sc.nextLine());
+		break;
+		
+		case 2:
+		System.out.println("Enter ID");
+		String Id=sc.nextLine();
+		readPatientDetail(sc.nextLine());
+		break;
+		
+		case 3:
+			System.out.println("Enter Contact Number");
+			String ContactNumber=sc.nextLine();
+			readPatientDetail(sc.nextLine());
+		
+		case 4:
+			System.out.println("Enter Age");
+			String Age=sc.nextLine();
+			readPatientDetail(sc.nextLine());	
+		}
+	}
+	static void readPatientDetail(String key)
+	throws Exception
+	{
+		JSONParser Parser=new JSONParser();
+		JSONArray object=(JSONArray)Parser.parse(new FileReader("/home/admin1/eclipse-workspace/Demo/src/com/Javaprograms/oops.java/src/oops/java/Patient.json"));
+		//System.out.println(object);
+		for(int i=0;i<object.size();i++)
+		{
+			JSONObject Details=(JSONObject)object.get(i);
+			//System.out.println(Details);
+			if(key.equals((String)Details.get("Name")) || key.equals((String)Details.get("Age")) || key.equals((String)Details.get("ContactNumber")) || key.equals((String)Details.get("ID")))
+			{
+			System.out.println("Name :"+ Details.get("Name"));
+			System.out.println("ID :" + Details.get("ID"));
+			System.out.println("Contact Number :" + Details.get("ContactNumber"));
+			System.out.println("Age :" +Details.get("Age"));
+			
+			
+		}
+	}
+	}
+}

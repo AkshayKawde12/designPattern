@@ -1,0 +1,6 @@
+package Mediator.java;
+
+public interface ComputerPart 
+{
+	public void accept(VisitorDesign computerPartVisitor);
+}

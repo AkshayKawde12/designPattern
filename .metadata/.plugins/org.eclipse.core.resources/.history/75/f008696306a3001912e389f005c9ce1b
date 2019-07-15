@@ -1,0 +1,9 @@
+package FactoryDesign;
+
+interface os
+{
+void sprc()
+	{
+	
+	}
+}

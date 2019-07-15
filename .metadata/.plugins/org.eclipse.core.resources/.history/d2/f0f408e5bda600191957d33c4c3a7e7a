@@ -1,0 +1,14 @@
+package Singleton;
+
+public class EagerSingleton 
+{
+	private static EagerSingleton EagerObject= new EagerSingleton();
+	private EagerSingleton()
+	{
+		System.out.println("here is Eager initilzatioin");
+	}
+	public static EagerSingleton getInstance()
+	{
+		return EagerObject;
+	}
+}
